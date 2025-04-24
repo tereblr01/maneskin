@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #5c0303;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h1{font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 35px;}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    letter-spacing: 2px; 
+    word-spacing: 10px;
+    padding: 10px 20px; 
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.3s ease, color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #ccc; 
+    border-bottom: 2px solid white; 
+}
+
+.miembros {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.integrante {
+    text-align: center;
+    position: relative;
+}
+
+.foto-principal {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+.fotovic{
+    width: 178px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.circulo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    margin: -40px auto 10px;
+    background-color: black;
+}
+
+.circulo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.circulo:hover {
+    background-color: black;
+    border-color: rgb(146, 9, 9);
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+.integrante h3, .integrante p {
+    margin: 2px 0;
+    color: white;
+}
+.foto-principal:hover,
+.fotovic:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease; 
+}
+
+
+.info {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.historia {
+    padding: 30px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+  
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
